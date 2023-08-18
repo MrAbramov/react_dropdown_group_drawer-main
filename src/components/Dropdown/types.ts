@@ -1,0 +1,2 @@
+export type DropdownOption = { id: string | number; value: string | number; }
+export type DropdownProps = { list: DropdownOption[], defaultValue?: DropdownOption, value?: DropdownOption, placeholder?: string; onChange?: (option: DropdownOption) => void; onClick?: () => void }
